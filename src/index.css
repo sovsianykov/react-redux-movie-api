@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.poster {
+  width: 1100px;
+  overflow: hidden;
+  margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    column-gap: 10px;
+    background: antiquewhite;
+}
+ img {
+  display: block;
+  width: 100%;
+}
